@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 // Correctly import the image with its file extension
 import puppy from "../assets/puppy.png";
 import Dogbreed from "../components/Dogbreed";
+import Petproduct from "../components/Petproduct";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       </div>
 
       <Dogbreed/>
+      <Petproduct/>
     </>
   );
 };

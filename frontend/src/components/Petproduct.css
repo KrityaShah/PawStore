@@ -1,0 +1,73 @@
+.main-petproduct-container {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 1100px;
+    height: 418px;
+    margin: 70px 0px 0px 140px;
+}
+
+.main-petproduct-container .left {
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.main-petproduct-container .left h1 {
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 54px;
+}
+
+.main-petproduct-container .left p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.main-petproduct-container .left .petproduct-btn {
+    margin-top: 15px;
+}
+
+.main-petproduct-container .left .petproduct-btn button {
+    margin-top: 15px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    background: #E58608;
+}
+
+
+.main-petproduct-container .right {
+    /* border: 1px solid black; */
+    width: 60%;
+}
+
+.main-petproduct-container .right img{
+    /* border: 1px solid black; */
+    margin: 7px;
+}
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.poppins-regularplus {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+

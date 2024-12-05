@@ -19,31 +19,31 @@ const Dogbreed = () => {
       <div className="breeds">
         <div className="breed">
           <img src={gr} alt="Golden Retriver" srcset="" />
-          <p className="poppins-regularplus ">Golden Retriver</p>
+          <p className="poppins-regular ">Golden Retriver</p>
         </div>
         <div className="breed">
           <img src={sh} alt="Siberian Husky" srcset="" />
-          <p className="poppins-regularplus ">Siberian Husky</p>
+          <p className="poppins-regular">Siberian Husky</p>
         </div>
         <div className="breed">
           <img src={pb} alt="Pitbull" />
-          <p className="poppins-regularplus ">Pitbull</p>
+          <p className="poppins-regular ">Pitbull</p>
         </div>
         <div className="breed">
           <img src={gs} alt="German Shepard" />
-          <p className="poppins-regularplus ">German Shepard</p>
+          <p className="poppins-regular">German Shepard</p>
         </div>
         <div className="breed">
           <img src={pug} alt="Pug" />
-          <p className="poppins-regularplus ">Pug</p>
+          <p className="poppins-regular">Pug</p>
         </div>
         <div className="breed">
           <img src={js} alt="Japanese Spitz" />
-          <p className="poppins-regularplus ">Japanese Spitz</p>
+          <p className="poppins-regular">Japanese Spitz</p>
         </div>
         <div className="breed">
           <img src={labrador} alt="Labrador" />
-          <p className="poppins-regularplus ">Labrador</p>
+          <p className="poppins-regular">Labrador</p>
         </div>
       </div>
     </div>

@@ -40,6 +40,12 @@
     height: 126px;
     margin: 10px 5px 0px 5px;
 }
+
+
+.main-dogbreed-container .breed p{
+    font-weight: 500;
+}
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;

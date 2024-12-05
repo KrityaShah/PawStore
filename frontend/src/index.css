@@ -1,11 +1,6 @@
 *{
-    padding: 0;
+    padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-body{
-  background:  #FFF0D9 no-repeat;
-    /* background: linear-gradient(0deg, #ffd59e00 0%, #ffd6a0 100%) no-repeat; */
-    height: 100vh;
-}

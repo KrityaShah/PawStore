@@ -18,11 +18,11 @@ const Dogbreed = () => {
 
       <div className="breeds">
         <div className="breed">
-          <img src={gr} alt="Golden Retriver" srcset="" />
+          <img src={gr} alt="Golden Retriver"  />
           <p className="poppins-regular ">Golden Retriver</p>
         </div>
         <div className="breed">
-          <img src={sh} alt="Siberian Husky" srcset="" />
+          <img src={sh} alt="Siberian Husky" />
           <p className="poppins-regular">Siberian Husky</p>
         </div>
         <div className="breed">

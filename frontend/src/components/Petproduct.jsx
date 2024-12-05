@@ -25,12 +25,12 @@ const Petproduct = () => {
       </div>
 
       <div className="right">
-        <img src={a} alt="" srcset="" />
-        <img src={b} alt="" srcset="" />
-        <img src={c} alt="" srcset="" />
-        <img src={d} alt="" srcset="" />
-        <img src={e} alt="" srcset="" />
-        <img src={f} alt="" srcset="" />
+        <img src={a} alt=""  />
+        <img src={b} alt=""  />
+        <img src={c} alt=""  />
+        <img src={d} alt=""  />
+        <img src={e} alt=""  />
+        <img src={f} alt=""  />
       </div>
     </div>
   )

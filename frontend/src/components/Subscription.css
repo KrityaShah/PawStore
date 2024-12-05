@@ -1,0 +1,47 @@
+.main-subscription-container{
+    background-color: #FFF0D9;
+    width: 1160px;
+    margin: 20px 0px 0px 130px;
+    display: flex;
+    /* height: 340px; */
+}
+
+.main-subscription-container .left img{
+    margin: 0px 0px 0px 140px;
+}
+.main-subscription-container .right{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.main-subscription-container .right h1{
+   font-weight: 700;
+   margin: 120px 0px 0px 110px;
+}
+
+.main-subscription-container .right p{
+    margin: 25px 0px 0px 110px;
+}
+
+.main-subscription-container .right .subscription-email input{
+    padding: 10px 75px;
+    margin: 25px 0px 0px 110px;
+    border-radius: 20px;
+    border: none;
+}
+.main-subscription-container .right .subscription-btn button{
+    margin: 25px 0px 0px 110px;
+    background-color: #E58608;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  };

@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import puppy from "../assets/puppy.png";
 import Dogbreed from "../components/Dogbreed";
 import Petproduct from "../components/Petproduct";
+import Blog from "../components/Blog";
+import Subscription from "../components/Subscription";
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
 
       <Dogbreed/>
       <Petproduct/>
+      <Blog/>
+      <Subscription/>
     </>
   );
 };

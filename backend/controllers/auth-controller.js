@@ -29,7 +29,7 @@ const register = async (req, res) => {
       password: hashPassword,
     });
 
-    res
+   return res
     .status(200)
     .json({message: "Registration Sucessfull", token: await userCreation.generateToken(), userId: userCreation._id.toString()});
   } catch (error) {

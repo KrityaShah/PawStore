@@ -8,6 +8,7 @@ import Petproduct from "../components/Petproduct";
 import Blog from "../components/Blog";
 import Subscription from "../components/Subscription";
 import Footer from "../components/Footer";
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
           children and normally kind with strangers.
         </p>
         <div className="home-btn">
-          <button>Buy me</button>
+         <Link  to="/signup" className="nav-link"><button>Buy me</button></Link> 
         </div> 
         </div>
        

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Paw Store All Rights Reserved To Kritya Shah.</p>
         <div className="footer-links">
           <a href="/about" className="footer-link">About</a>
           <a href="/contact" className="footer-link">Contact</a>

@@ -6,6 +6,7 @@ import c from "../assets/c.png"
 import d from "../assets/d.png"
 import e from "../assets/e.png"
 import f from "../assets/f.png"
+import { Link } from 'react-router-dom'
 
 
 const Petproduct = () => {
@@ -20,7 +21,7 @@ const Petproduct = () => {
         </p>
 
         <div className="petproduct-btn">
-          <button>See more</button>
+         <Link to="/signup" className="nav-link"><button>See more</button></Link> 
         </div>
       </div>
 

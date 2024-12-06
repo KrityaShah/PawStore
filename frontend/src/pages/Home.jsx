@@ -7,6 +7,7 @@ import Dogbreed from "../components/Dogbreed";
 import Petproduct from "../components/Petproduct";
 import Blog from "../components/Blog";
 import Subscription from "../components/Subscription";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       <Petproduct/>
       <Blog/>
       <Subscription/>
+      <Footer/>
     </>
   );
 };

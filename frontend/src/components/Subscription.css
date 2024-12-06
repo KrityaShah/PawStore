@@ -3,6 +3,7 @@
     width: 1160px;
     margin: 20px 0px 0px 130px;
     display: flex;
+    border-radius: 30px;
     /* height: 340px; */
 }
 

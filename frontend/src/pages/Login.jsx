@@ -3,9 +3,9 @@ import { useForm  } from "react-hook-form"
 import "./Login.css"
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react'
-
+import { useAuth } from "./../store/auth";
 
 const Login = () => {
  
@@ -18,9 +18,10 @@ const Login = () => {
       } = useForm()
 
 
-    //   const navigate = useNavigate(); 
+      const navigate = useNavigate(); 
       
-    //   const {storeTokenInLS} = useAuth();
+      const {storeTokenInLS} = useAuth();
+
     const [isAdminLogin, setIsAdminLogin] = useState(false);
       const onSubmit = async (data) => {
         try {
@@ -36,9 +37,9 @@ const Login = () => {
           if (response.ok) {
             let res_data = await response.json();
             // console.log("response from server", res_data);
-            // storeTokenInLS(res_data.token);
+            storeTokenInLS(res_data.token);
             
-            // navigate("/clienthomepage"); 
+            navigate("/home2"); 
             alert("Sucessfull login");
             console.log(res);
           }else{

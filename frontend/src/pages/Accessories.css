@@ -1,0 +1,52 @@
+.main-accessories-container {
+    /* border: 1px solid black; */
+    background: #FFF0D9 no-repeat;
+    height: 100vh;
+}
+
+.main-accessories-container h1 {
+    text-align: center;
+    /* margin-top: 10px; */
+    font-weight: 700;
+}
+.main-accessories-container .accessories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Exactly 4 columns */
+    gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+    justify-content: center; /* Center the grid items horizontally */
+}
+
+.main-accessories-container .accessories .accessory {
+    margin: 0; /* Remove extra margins */
+    border: 1px solid black;
+    width: 100%; /* Let the grid item control the width */
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-accessories-container .accessories .accessory h3 {
+    margin-top: 180px;
+}
+
+.main-accessories-container .accessories .accessory .accessory-btn button{
+    background-color: #E58608;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
